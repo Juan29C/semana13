@@ -12,6 +12,15 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Login</h1>
+        <form action="LoginServlet" method="">
+            <label> usuario </label>
+            <input type="text" id="usuario" name="usuario" placeholder="usuario">
+            <br>
+            <label> Contraseña </label>
+            <input type="text" id="contrasena" name="contrasena" placeholder="contrasena">
+            <br>
+            <button type="submit"> Ingresar </button>
+        </form>
     </body>
 </html>
